@@ -48,3 +48,12 @@ git remote -v
 # 원격 저장소 추가
 git remote add <원격 저장소 이름> <원격 저장소 url>
 git remote add origin https://github.com/minJeongHwan9651/git-basic-test.git
+# 원격 저장소에 변경사항 업로드(동기화) 방법
+git push <원격 저장소 이름> <대상 브랜치 이름>
+git push origin main
+# 다른 장소에서 내가 올린 코드를 그대로 받아서 이어서 작업을 하고 싶다.
+# 코드를 clone 해야 한다.
+# 1. 클론한 코드를 저장할 폴더를 만든다.
+# 2. git bash를 켠다
+# 3. git clone <저장소 url> [저장할 하위 폴더 이름]
+git clone https://github.com/minJeongHwan9651/git-basic-test.git 
