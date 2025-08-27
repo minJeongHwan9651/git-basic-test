@@ -24,4 +24,20 @@ git commit -m "해당 버전에 대한 설명"
 git commit -m "init"
 # 처음으로 저장소(repository)를 만든 경우, 첫 커밋할 때
 # init이라고 적어주는 게 좋다.
+# 0. 개인 설정
+# 해당 폴더에서 git을 관리하는 사람이 누구인지 작성을 해주어야 한다.
+# 이 때 사용하는 것이 git config이며
+# 주로 개인 PC를 사용하는 경우, global로 설정하면
+# 어떤 폴더에 가서 하더라도 설정을 추가로 할 필요가 없다.(기본값 설정)
+# 공용 PC를 사용하는 경우, 해당 폴더에만 적용되게 local로 설정
+git config --local user.name "<닉네임>"
+git config --local user.name "minJeongHwan9651"
+# 전역 설정
+git config --global user.name "minJeongHwan9651"
+# 이름 뿐만 아니라 이메일도 설정을 해주어야 한다.
+# 이 이메일을 github에서 로그인할 때 사용했던 이메일로 설정하면
+# 자동으로 그 계정과 연동을 시켜준다.(프로필 노출)
+git config list
+git config --local user.email "<개인이메일>"
+git config --local user.email "qwertty40@naver.com"
 # ===== 개인적으로 백업/버전관리 하는 용도 =====
