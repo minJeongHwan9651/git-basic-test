@@ -21,4 +21,6 @@ git add .
 # 버전을 확정(commit)해야 한다.
 git commit -m "해당 버전에 대한 설명"
 # -m 옵션: 메시지를 남기겠다-라는 의미의 옵션이다.
-
+git commit -m "init"
+# 처음으로 저장소(repository)를 만든 경우, 첫 커밋할 때
+# init이라고 적어주는 게 좋다.
