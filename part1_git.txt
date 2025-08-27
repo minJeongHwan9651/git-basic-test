@@ -57,3 +57,4 @@ git push origin main
 # 2. git bash를 켠다
 # 3. git clone <저장소 url> [저장할 하위 폴더 이름]
 git clone https://github.com/minJeongHwan9651/git-basic-test.git 
+git push --set-upstream origin main

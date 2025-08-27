@@ -1,0 +1,10 @@
+deactivate
+pip install --upgrade pip
+pip install uv
+uv init
+uv sync 
+uv pip install pandas matplotlib numpy
+uv pip list
+source .venv/bin/activate
+// 버전 바꾼 후에 uv sync 하면 .venv 가상환경에 새로운 버전 깔림
+
