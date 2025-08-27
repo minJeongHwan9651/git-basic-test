@@ -1,3 +1,4 @@
+deactivate
 pip install --upgrade pip
 pip install uv
 uv init
