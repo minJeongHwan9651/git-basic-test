@@ -47,3 +47,4 @@ git config --local user.email "qwertty40@naver.com"
 git remote -v
 # 원격 저장소 추가
 git remote add <원격 저장소 이름> <원격 저장소 url>
+git remote add origin https://github.com/minJeongHwan9651/git-basic-test.git
