@@ -41,3 +41,8 @@ git config list
 git config --local user.email "<개인이메일>"
 git config --local user.email "qwertty40@naver.com"
 # ===== 개인적으로 백업/버전관리 하는 용도 =====
+# 원격 저장소(github)와 로컬 저장소(현재 폴더)를 연결하는 명령어
+# 원격에 올리는 것이기 때문에 remote라는 명령어로 시작한다.
+# 현재 원격 연결 상태를 보여주는 명령어
+git remote -v
+
